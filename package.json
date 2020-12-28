@@ -2,15 +2,15 @@
   "name": "rest",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node app.js",
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git"
   },
-  "author": "",
+  "author": "Raul Max",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -23,6 +23,7 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "joi": "^17.3.0"
+    "joi": "^17.3.0",
+    "mongoose": "^5.11.8"
   }
 }
