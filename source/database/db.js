@@ -1,6 +1,6 @@
 'use strict';
 import 'dotenv/config.js';
-import mongoose, { mongo } from 'mongoose';
+import mongoose from 'mongoose';
 
 const URI = process.env.DB_URI;
 
