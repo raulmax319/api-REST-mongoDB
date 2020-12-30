@@ -1,5 +1,5 @@
 'use strict';
-import User from '../models/user';
+import User from '../models/User';
 import gerarToken from '../config/token';
 
 export default async function register(req, res) {
