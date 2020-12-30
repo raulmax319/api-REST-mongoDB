@@ -6,11 +6,13 @@ import 'dotenv/config.js';
 
 const app = express();
 
-import router from './controllers/auth';
+import auth from './routes/auth';
+import project from './routes/project';
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/auth', router);
+app.use('/auth', auth);
+app.use('/project', (req, res) => res.send({ ok: true }));
 
 export default app;
